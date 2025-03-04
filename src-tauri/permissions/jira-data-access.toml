@@ -1,0 +1,15 @@
+[[permission]]
+identifier = "jira-data-access"
+description = "Read/write access to Jira data directory"
+
+[[scope.allow]]
+path = "$HOME/.jira-app/*"
+
+[[set]]
+identifier = "jira-app-permissions"
+description = "Combined permissions for Jira app"
+permissions = [
+    "fs:read-files",
+    "fs:write-files",
+    "jira-data-access"
+]

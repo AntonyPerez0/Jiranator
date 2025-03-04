@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schema.tauri.app/capability.json",
+  "identifier": "jira-api-access",
+  "description": "Allows access to Jira API endpoints",
+  "long_description": "Enables the application to connect to Atlassian Jira Cloud instances for viewing and managing tickets.",
+  "windows": ["main"],
+  "permissions": [
+    {
+      "identifier": "http:default",
+      "allow": [
+        { "url": "https://*.atlassian.net" },
+        { "url": "https://api.atlassian.com" },
+        { "url": "https://jsonplaceholder.typicode.com" }
+      ]
+    }
+  ]
+}
