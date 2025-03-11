@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "shadcntest",
+  "productName": "Jiranator",
   "version": "0.1.0",
   "identifier": "com.shadcntest.app",
   "build": {
@@ -12,9 +12,9 @@
   "app": {
     "windows": [
       {
-        "title": "shadcntest",
-        "width": 800,
-        "height": 600
+        "title": "Jiranator",
+        "width": 1920,
+        "height": 1080
       }
     ],
     "security": {
