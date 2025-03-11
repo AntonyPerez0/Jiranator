@@ -85,7 +85,7 @@ export default function SettingsPage() {
     }
   };
 
-  // Test with a public API to verify Tauri HTTP plugin is working
+  // Test with a public API to verify HTTP plugin is working
   const testPublicApi = async () => {
     setPublicApiLoading(true);
     setPublicApiStatus(null);
@@ -121,7 +121,7 @@ export default function SettingsPage() {
   };
 
   return (
-    <div className="container py-10 space-y-8">
+    <div className="w-full px-4 md:px-6 py-10 space-y-8">
       <h1 className="text-3xl font-bold">API Settings Tests</h1>
 
       {/* Jira Settings */}
@@ -203,8 +203,8 @@ export default function SettingsPage() {
         <CardHeader>
           <CardTitle>Public API Test</CardTitle>
           <CardDescription>
-            Test if the Tauri HTTP plugin is working correctly by connecting to
-            a public API
+            Test if the HTTP plugin is working correctly by connecting to a
+            public API
           </CardDescription>
         </CardHeader>
         <CardContent>

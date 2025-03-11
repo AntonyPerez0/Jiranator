@@ -89,7 +89,7 @@ export default function QueryPage() {
   };
 
   return (
-    <div className="container py-6">
+    <div className="w-full px-4 md:px-6 py-6">
       <Tabs defaultValue="jql">
         <TabsList className="mb-4">
           <TabsTrigger value="jql">JQL Query</TabsTrigger>

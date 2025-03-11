@@ -119,7 +119,7 @@ export default function JiraTicketsPage() {
   );
 
   return (
-    <div className="container py-6">
+    <div className="w-full px-4 md:px-6 py-6">
       <Card>
         <CardHeader>
           <div className="flex items-center justify-between">
